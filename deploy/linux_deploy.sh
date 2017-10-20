@@ -1,7 +1,7 @@
 # ensure mysql is installed with user:'root' password: 'hitchhiker888' and create database 'hitchhiker-prod'
-# replace myhost with your ip, keep 8080 port
+# replace myhost with your ip, keep 11001 port
 
-myhost="http://10.86.18.215:8080/"
+myhost="http://10.86.18.215:11001/"
 
 export NODE_ENV="develop"
 

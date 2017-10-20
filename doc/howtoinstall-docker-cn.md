@@ -19,5 +19,5 @@ sudo vim docker-compose.yml
 sudo docker-compose up -d
 
 # 成功后可以测试下
-curl http://ip:8080/
+curl http://ip:11001/
 ```

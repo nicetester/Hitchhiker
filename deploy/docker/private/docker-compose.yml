@@ -6,7 +6,7 @@ services:
     environment:
       - HITCHHIKER_DB_HOST=hitchhiker-mysql
     ports:
-      - "8080:8080"
+      - "11001:11001"
     volumes:
       - /my/hitchhiker/public:/usr/src/Hitchhiker/build/public
     links:

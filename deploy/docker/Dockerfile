@@ -23,5 +23,5 @@ RUN gulp release --prod
 
 WORKDIR /usr/src/Hitchhiker/build
 # start mail
-EXPOSE 8080
+EXPOSE 11001
 CMD ["pm2-docker", "index.js"]
